@@ -1,3 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Header
+     
+    </ion-title>
+    <ion-button fill='outline' expand='block' (click)="onClick()">
+      Click me
+    </ion-button>
+    <ion-button (click)="onClick()" fill='clear'>
+       <ion-icon slot="icon-only" name="add"></ion-icon>
+    </ion-button>
+    <ion-button slot="primary"  color="secondary" id="testBtn" (click)="onClick()">
+        Click me
+      </ion-button>
+      <ion-button size="large" (click)="onClick()">
+        Click me
+      </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
 <ion-tabs>
 
   <ion-tab-bar slot="bottom">
